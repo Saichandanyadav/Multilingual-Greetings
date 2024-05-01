@@ -1,0 +1,27 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-item-container {
+  margin-right: 30px;
+  list-style: none;
+  list-style-type: none;
+}
+.active-tab-btn {
+  background-color: #db1c48;
+  color: #ffffff;
+}
+.tab-btn {
+  border-color: #db1c48;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 20px;
+}
